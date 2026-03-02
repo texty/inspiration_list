@@ -1,0 +1,26 @@
+{
+  "display_information": {
+    "name": "Link Saver",
+    "description": "Saves links posted in Slack. Post a URL with a hashtag category, e.g. https://example.com #dataviz",
+    "background_color": "#1a1a2e"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "Link Saver",
+      "always_online": false
+    }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "channels:history",
+        "users:read"
+      ]
+    }
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": false
+  }
+}
