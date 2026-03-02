@@ -138,8 +138,14 @@ h1 {
   flex: 1;
 }
 
+.card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
 .card-tag {
-  align-self: flex-start;
   font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -147,6 +153,13 @@ h1 {
   color: #fff;
   padding: 0.15rem 0.55rem;
   border-radius: 5px;
+  white-space: nowrap;
+}
+
+.card-author {
+  font-size: 0.75rem;
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 .card-title {
@@ -179,6 +192,13 @@ h1 {
   border-top: 1px solid var(--border);
 }
 .card-note::before { content: '↳ '; opacity: 0.6; }
+
+.filter-label {
+  font-size: 0.78rem;
+  color: var(--muted);
+  align-self: center;
+  margin-right: 0.2rem;
+}
 
 /* ── Empty state ── */
 

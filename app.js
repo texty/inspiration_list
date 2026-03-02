@@ -9,6 +9,7 @@ const PALETTE = [
 let allLinks = [];
 let categoryColor = {};   // category → hex
 let activeCategory = "all";
+let activeAuthor = "all";
 let searchQuery = "";
 
 async function init() {
@@ -27,7 +28,10 @@ async function init() {
     categoryColor[cat] = PALETTE[i % PALETTE.length];
   });
 
+  const authors = [...new Set(allLinks.map(l => l.author).filter(Boolean))].sort();
+
   renderFilters(categories);
+  renderAuthorFilters(authors);
   renderGallery();
 
   document.getElementById("search").addEventListener("input", e => {
@@ -42,28 +46,59 @@ function renderFilters(categories) {
   const nav = document.getElementById("filters");
   nav.innerHTML = "";
 
-  const allPill = makePill("All", "all", "#52525b");
+  const allPill = makePill("All", "all", "#52525b", (btn, value, color) => {
+    activeCategory = value;
+    nav.querySelectorAll(".pill").forEach(p => clearActive(p));
+    setActive(btn, color);
+    renderGallery();
+  });
   setActive(allPill, "#52525b");
   nav.appendChild(allPill);
 
   categories.forEach(cat => {
-    nav.appendChild(makePill(cat, cat, categoryColor[cat]));
+    const pill = makePill(cat, cat, categoryColor[cat], (btn, value, color) => {
+      activeCategory = value;
+      nav.querySelectorAll(".pill").forEach(p => clearActive(p));
+      setActive(btn, color);
+      renderGallery();
+    });
+    nav.appendChild(pill);
   });
 }
 
-function makePill(label, value, color) {
+function makePill(label, value, color, onClick) {
   const btn = document.createElement("button");
   btn.className = "pill";
   btn.textContent = label;
+  btn.addEventListener("click", () => onClick(btn, value, color));
+  return btn;
+}
 
-  btn.addEventListener("click", () => {
-    activeCategory = value;
-    document.querySelectorAll(".pill").forEach(p => clearActive(p));
-    setActive(btn, color);
+function renderAuthorFilters(authors) {
+  const nav = document.getElementById("author-filters");
+  if (authors.length === 0) return;
+
+  nav.hidden = false;
+  nav.innerHTML = '<span class="filter-label">By:</span>';
+
+  const allPill = makePill("Everyone", "all", "#52525b", (btn, value) => {
+    activeAuthor = value;
+    nav.querySelectorAll(".pill").forEach(p => clearActive(p));
+    setActive(btn, "#52525b");
     renderGallery();
   });
+  setActive(allPill, "#52525b");
+  nav.appendChild(allPill);
 
-  return btn;
+  authors.forEach(author => {
+    const pill = makePill(author, author, "#52525b", (btn, value) => {
+      activeAuthor = value;
+      nav.querySelectorAll(".pill").forEach(p => clearActive(p));
+      setActive(btn, "#52525b");
+      renderGallery();
+    });
+    nav.appendChild(pill);
+  });
 }
 
 function setActive(btn, color) {
@@ -84,6 +119,10 @@ function renderGallery() {
 
   if (activeCategory !== "all") {
     links = links.filter(l => l.category === activeCategory);
+  }
+
+  if (activeAuthor !== "all") {
+    links = links.filter(l => l.author === activeAuthor);
   }
 
   if (searchQuery) {
@@ -126,11 +165,18 @@ function cardHTML(link) {
     ? `<p class="card-note">${esc(link.note)}</p>`
     : "";
 
+  const authorHTML = link.author
+    ? `<p class="card-author">@${esc(link.author)}</p>`
+    : "";
+
   return `
     <a class="card" href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">
       ${imageHTML}
       <div class="card-body">
-        <span class="card-tag" style="background:${color}">${esc(link.category)}</span>
+        <div class="card-meta">
+          <span class="card-tag" style="background:${color}">${esc(link.category)}</span>
+          ${authorHTML}
+        </div>
         <p class="card-title">${esc(link.title)}</p>
         ${excerptHTML}
         ${noteHTML}
