@@ -59,13 +59,19 @@ h1 {
 
 /* ── Filter pills ── */
 
-#filters {
+#filters,
+#author-filters {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.4rem;
-  padding: 0 2rem 1.5rem;
+  padding: 0 2rem 1rem;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+#author-filters {
+  padding-bottom: 1.5rem;
 }
 
 .pill {
@@ -196,8 +202,7 @@ h1 {
 .filter-label {
   font-size: 0.78rem;
   color: var(--muted);
-  align-self: center;
-  margin-right: 0.2rem;
+  flex-shrink: 0;
 }
 
 /* ── Empty state ── */
