@@ -1,18 +1,10 @@
 [
   {
-    "url": "https://www.spiegel.de/international/world/data-on-russia-s-dead-the-deaths-vladimir-putin-is-keeping-quiet-a-df2473a2-7d59-4708-b255-1a5f8e2d49ca",
-    "title": "Data on Russia's Dead The Deaths Putin Is Seeking to Keep Quiet",
-    "excerpt": "Russian volunteers are searching through graveyards, archives and the internet to determine how many of the country’s soldiers have actually died in Ukraine. A database they helped build provides some astonishing insights.",
-    "note": "interesting example of map transforming using Svelte",
-    "category": "dj & dataviz",
-    "cover_image": "https://cdn.prod.www.spiegel.de/images/c2e6110d-c4b2-41d3-996d-a7104e01b847_w1200_r1.778_fpx28.1_fpy49.96.jpg"
-  },
-  {
     "url": "https://ig.ft.com/space-debris/",
     "title": "How space debris threatens modern life",
     "excerpt": "By in London and Sam Learner in New York",
     "note": "among favourites from Sigma-23",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "http://ig.ft.com/images/8345385482-qjigp.jpg"
   },
   {
@@ -20,7 +12,7 @@
     "title": "The Illegal Airstrips Bringing Toxic Mining to Brazil’s Indigenous Land",
     "excerpt": "This airplane with a scratched-out tail number is coming from an illegal gold mine. The airstrip it used was seized from the government by miners. They also built four other airstrips nearby, all illegally.",
     "note": "among favourites from Sigma-23",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2022/08/01/world/brazil-airstrips-illegal-mining-promo/brazil-airstrips-illegal-mining-promo-facebookJumbo.jpg?year=2022&h=549&w=1050&s=cd728e54692845c453eff560ec36c7800cbc48110eca99adfdeef29a46b3407b&k=ZQJBKqZ0VN"
   },
   {
@@ -28,7 +20,7 @@
     "title": "Oil wells in the national park",
     "excerpt": "Es gibt Gründe, warum sich die Ölfirmen Uganda ausgesucht haben. Das Land mit seinen 41 Millionen Menschen ist eines der stabileren in der Region.",
     "note": "among favourites from Sigma-23",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://interaktiv.tagesspiegel.de/lab/assets/images/klima-afrika/scrollytelling/social-eacop-uganda.png"
   },
   {
@@ -36,7 +28,7 @@
     "title": "Extreme Heat Will Change Us",
     "excerpt": "Extreme Heat Will Change UsHalf the world could soon face dangerous heat. We measured the daily toll it is already taking. Extreme Heat Will Change UsHalf the world could soon face dangerous heat. We measured the daily toll it is already taking.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2022/11/18/multimedia/heat-promo/heat-promo-facebookJumbo.jpg?year=2022&h=550&w=1050&s=8ac89109b92d7327d72fef5b4dd4d2e467066dd3f7f88291a720a6f49ef9220f&k=ZQJBKqZ0VN"
   },
   {
@@ -44,7 +36,7 @@
     "title": "How dams starve the Mekong River Delta of vital sediment",
     "excerpt": "Standing on the bank of the Mekong River, Tran Van Cung can see his rice farm wash away before his very eyes. The paddy’s edge is crumbling into the delta.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/MEKONG/egpbyyadnvq/cdn/images/reuters-graphics.jpg"
   },
   {
@@ -52,7 +44,7 @@
     "title": "Disappearing plants jeopardize a green future",
     "excerpt": "Losing plants is concerning because “we don’t know what was depending on that species in the ecosystem,” Nic Lughadha said. “And we don’t know what that species could be used for in the future.”",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/PLANTS/jnpwyygywpw/cdn/images/reuters-graphics.jpg"
   },
   {
@@ -60,7 +52,7 @@
     "title": "Aktueller Impfstatus",
     "excerpt": "Am 23. Juli 2021 wurden in Deutschland 517.470 Impf­dosen verabreicht. Damit sind nun 40.816.711 Personen (49,1 % der Gesamt­bevölkerung) vollständig geimpft. Insgesamt haben 50.538.713 Personen (60,8 %) mindestens eine Impf­dosis erhalten.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://impfdashboard.de/static/og_image.png?v=8ec7b34a"
   },
   {
@@ -68,23 +60,15 @@
     "title": "Fake Signals and American Insurance: How a Dark Fleet Moves Russian Oil",
     "excerpt": "In February, an oil tanker transmitted a signal showing it was sailing west of Japan. But the tanker’s path was highly unusual. Over the course of a day, its signals showed erratic behavior as the ship rapidly changed position.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/05/31/world/asia/russia-oil-ships-sanctions-1685447068084/russia-oil-ships-sanctions-1685447068084-facebookJumbo.png?year=2023&h=550&w=1050&s=212ec287d4e695947e82bf7f39c4408bf1e0a155dced697c1921dd75294d4fe0&k=ZQJBKqZ0VN"
-  },
-  {
-    "url": "https://twitter.com/flowingdata/status/1661419774541168662",
-    "title": "1661419774541168662",
-    "excerpt": null,
-    "note": "",
-    "category": "dj & dataviz",
-    "cover_image": ""
   },
   {
     "url": "https://www.theguardian.com/us-news/ng-interactive/2015/oct/19/homan-square-chicago-police-detainees",
     "title": "Homan Square interactive",
     "excerpt": "Internal data shows staggeringly disproportionate arrest records from the city’s off-the-books warehouse. Go inside the numbers – and across Chicago",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://i.guim.co.uk/img/media/803cfb658ee3b5e6c639c55a46a7f298e9e8f996/0_9_819_491/master/819.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMTUucG5n&enable=upscale&s=ee256501f08a8cc304a8bc7ffb98ac3c"
   },
   {
@@ -92,7 +76,7 @@
     "title": "A Thousand Tiny Quakes",
     "excerpt": "The explosions came one after another, a relentless series of bombings that echoed across Kyiv in the first weeks of the war. Residents at the center of Russia’s invasion of Ukraine were forced underground into makeshift shelters.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/08/29/multimedia/2023-06-29-ukraine-detections-index/2023-06-29-ukraine-detections-index-facebookJumbo-v3.jpg?year=2023&h=549&w=1050&s=12bb66cf164f0668447d8049ee92572bcde8949d0882a8d1e9cab9dcc52489ef&k=ZQJBKqZ0VN"
   },
   {
@@ -100,7 +84,7 @@
     "title": "How the pandemic triggered Australia's worst rental crisis",
     "excerpt": "Single mother Tilly Eastwood says the worst part of being priced out of the rental market isn't living in a garage with her three children. It isn't the absence of windows for light or fresh air. It's not even the 150-plus failed rental applications.",
     "note": "zoomable small multiples interactive maps",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://live-production.wcms.abc-cdn.net.au/5bb2b67f70d61bc30598142ab0227308?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=100&width=862&height=485&imformat=generic"
   },
   {
@@ -108,7 +92,7 @@
     "title": "How dams starve the Mekong River Delta of vital sediment",
     "excerpt": "Standing on the bank of the Mekong River, Tran Van Cung can see his rice farm wash away before his very eyes. The paddy’s edge is crumbling into the delta.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/MEKONG/egpbyyadnvq/cdn/images/reuters-graphics.jpg"
   },
   {
@@ -116,7 +100,7 @@
     "title": "Fast, cheap and deadly",
     "excerpt": "Reuters obtained and analyzed ten year’s worth of data on drugs seized by U.S. Customs and Border Protection (CBP) agents at ports of entry along the southern border. The dataset provides more detail, over a longer period, than publicly available CBP statistics.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/MEXICO-DRUGS/FENTANYL/dwvkadblovm/cdn/images/reuters-graphics.jpg"
   },
   {
@@ -124,7 +108,7 @@
     "title": "A visual guide to Eurovision",
     "excerpt": "Each year, singers and groups from each participating country perform their song in one of two semi-finals. Viewers in the participating countries vote for their favourite acts, and the 10 highest scorers from each night will move to the grand finale.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/MUSIC-EUROVISION/dwpkdykkzvm/cdn/images/share-card.jpg"
   },
   {
@@ -132,7 +116,7 @@
     "title": "Why North Korea’s missiles are going higher and further",
     "excerpt": "North Korea has forged ahead in developing ballistic missiles, testing new capabilities, honing existing weapons and putting them into service. All of this work was accompanied by an explicit, repeated message that it would never abandon its arsenal.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/NORTHKOREA-MISSILES/TESTING/byvrllmjmve/cdn/images/reuters-graphics.jpg"
   },
   {
@@ -140,7 +124,7 @@
     "title": "An illustrated explanation of Russia’s deportation of Ukrainians, from the war zone to a remote camp",
     "excerpt": "Your country has been invaded, and your home has been destroyed. You manage to escape and survive in the basement of a nearby building. Then, one day, there’s a strange voice outside. Soldiers force you out of your shelter and you are directed to a bus, destination unknown.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.usatoday.com/gcdn/presto/2023/04/28/USAT/b2d7b5c0-11c7-4078-8ef9-0c2a725d4cd3-deportation-promo.png?crop=2058,1158,x0,y450&width=2058&height=1158&format=pjpg&auto=webp"
   },
   {
@@ -148,7 +132,7 @@
     "title": "Weltraumschrott: Unser Müll im All",
     "excerpt": "Kaputte Satelliten und Raketen, Trümmer aus Kollisionen und Angriffen: Eine Wolke aus Schrott kreist um die Erde. Eine Gefahr für die Raumfahrt – und unsere Zivilisation lädt… Für den Satelliten Iridium-33 beginnt der 10. Februar 2009 wie ein ganz normaler Tag.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://img.zeit.de/wissen/2022-09/weltraumschrott-teaserbild/wide__1300x731"
   },
   {
@@ -156,7 +140,7 @@
     "title": "Mapping Ukraine’s counteroffensive",
     "excerpt": "Last week, Ukraine began its long awaited counteroffensive against the Russian occupation in the east. While Ukraine’s army reported some initial victories and liberated a handful of occupied towns, the hardened Russian lines are still ahead of them.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/UKRAINE-CRISIS/MAPS/klvygwawavg/cdn/images/outcome-sharecard.jpg"
   },
   {
@@ -164,7 +148,7 @@
     "title": "SNL's Shifting Faces",
     "excerpt": "Every Saturday Night Live host by sex and race since the show’s inception. SNL has only recently begun to meaningfully incorporate women of color as hosts.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": ""
   },
   {
@@ -172,7 +156,7 @@
     "title": "The floor is lava",
     "excerpt": "C° F° Grass Asphalt Surface temperature 27° 27° sunny 9:00 a.m. Air temperature 27° sunny 9:00 a.m. Air temp. 27° It only takes just a fraction of a second to suffer a pretty serious burn.",
     "note": "Landsat-9 for Land surface temperature",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.reuters.com/graphics/CLIMATE-CHANGE/URBAN-HEAT/zgpormdkevd/cdn/images/reuters-graphics.jpg"
   },
   {
@@ -180,7 +164,7 @@
     "title": "Visualising Data 2009 to 2021. All rights reserved | Cookie Statement | Contact Us",
     "excerpt": "This website makes minimal use of cookies. The only cookie currently in use is used to support analysis and understanding of how people use the website (what they like most, when is the busiest time of day on the site, have people found new content when it is published, etc.).",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://visualisingdata.com/wp-content/uploads/2023/02/ResourcesScreenshot.png"
   },
   {
@@ -188,7 +172,7 @@
     "title": "How to Cool Down a City",
     "excerpt": "Singapore’s prime minister has described climate change as “life and death.” He has reason to worry: Stifling temperatures and humidity already last all year, and the city-state has warmed at twice the global average over the past six decades.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/09/17/world/singapore-heat-promo/singapore-heat-promo-facebookJumbo.jpg?year=2023&h=549&w=1050&s=769bfa7509b292f79048392729bf19f8eeb94714fbcf8ec8e8f7960262adb166&k=ZQJBKqZ0VN"
   },
   {
@@ -196,7 +180,7 @@
     "title": "A Detailed Satellite View of Israel’s Invasion",
     "excerpt": "Satellite imagery taken Monday morning shows the substantial scale of one of Israel’s main advances into northern Gaza, where hundreds of armored vehicles have pushed miles past the border into urban areas on the outskirts of Gaza City.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/10/30/multimedia/2023-10-30-gaza-beit-lahia-index/2023-10-30-gaza-beit-lahia-index-facebookJumbo.jpg?year=2023&h=549&w=1050&s=9e4cf02402e2672720c0e0a3929c5189cb13c4a100216befbb67ae19dc7c6af1&k=ZQJBKqZ0VN"
   },
   {
@@ -204,7 +188,7 @@
     "title": "An Extremely Detailed Guide to an Extremely Detailed Map of New York City Neighborhoods",
     "excerpt": "For this article, Larry Buchanan talked to historians, purchased too many old maps and read more than 6,000 readers’ comments about their neighborhoods. He is quite sure he lives in Red Hook, Brooklyn. How is a neighborhood born?",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/10/27/multimedia/2023-10-13-nyc-neighborhoods-index/2023-10-13-nyc-neighborhoods-index-facebookJumbo-v3.jpg?year=2023&h=549&w=1050&s=feea78852e6105abaeef9cb560a80f3f1bd3e58c59a071c23bad4f4ca01fb9b2&k=ZQJBKqZ0VN"
   },
   {
@@ -212,7 +196,7 @@
     "title": "An Extremely Detailed Map of New York City Neighborhoods",
     "excerpt": "Loading map",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/10/29/upshot/neighborhoods-promo/neighborhoods-promo-facebookJumbo-v4.jpg?year=2024&h=550&w=1050&s=88dae157fb0ef008b5df8c5bf2e6172623971814a237758ac38a7455f4e698f7&k=ZQJBKqZ0VN"
   },
   {
@@ -220,15 +204,15 @@
     "title": "24 hours in an invisible epidemic",
     "excerpt": "Thank you for reading to the end! Consider directly supporting the author.",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://pudding.cool/2023/09/invisible-epidemic/assets/social-facebook.jpg"
   },
   {
     "url": "https://www.bloomberg.com/graphics/2023-israel-hamas-war-misinformation-twitter-community-notes/",
-    "title": "https://www.bloomberg.com/graphics/2023-israel-hamas-war-misinformation-twitter-community-notes/",
+    "title": "How Musk’s X Is Failing To Stem the Surge of Misinformation About Israel and Gaza",
     "excerpt": null,
     "note": "Цікава реалізація progress bar, який привʼязаний до скролу і до дати виходить як scroll countdown",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": ""
   },
   {
@@ -236,23 +220,23 @@
     "title": "The ‘barbed-wire curtain’ dividing Europe from Russia and Belarus, visualized",
     "excerpt": "If construction happens as expected, Europe’s “barbed-wire curtain” will span almost 1,000 miles by 2026, about a third longer than the U.S.-Mexico border wall.",
     "note": "ai2html",
-    "category": "dj & dataviz",
-    "cover_image": ""
+    "category": "dataviz",
+    "cover_image": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IN5WN4PCR5HRTAVVCYDRNMPQM4.jpg"
   },
   {
     "url": "https://www.bloomberg.com/graphics/2023-generative-ai-bias/",
-    "title": "https://www.bloomberg.com/graphics/2023-generative-ai-bias/",
+    "title": "Humans Are Biased. Generative AI Is Even Worse",
     "excerpt": null,
     "note": "",
-    "category": "dj & dataviz",
-    "cover_image": ""
+    "category": "dataviz",
+    "cover_image": "https://www.bloomberg.com/graphics/2023-generative-ai-bias/img/2023-generative-ai-bias-facebook.png"
   },
   {
     "url": "https://ig.ft.com/afghan-mining/",
     "title": "Explore our plans...",
     "excerpt": "Subscribe to the FT today and navigate your world with confidence. Then $75 per month for Premium Digital access. Cancel or change your plan anytime during your trial.",
     "note": "How the Taliban took over Afghanistan’s mines",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fig.ft.com%2Fimages%2F8280660997-4w4c8.png?source=ig"
   },
   {
@@ -260,7 +244,7 @@
     "title": "Generation Screwed",
     "excerpt": "Why millennials are facing the scariest financial future of any generation since the Great Depression.",
     "note": "Скролітелінг, який я довго шукала, тут аватар падає вниз, бігає десь і постійно якось взаємодіє з тим, що відбувається на екрані. Схожий візуально буде оцей: https://www.reuters.com/graphics/VIDEO-GAMES/MENTAL-HEALTH/akpeewkqgpr/",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "http://highline.huffingtonpost.com/articles/en/poor-millennials/media/images/Avo_facebook.png"
   },
   {
@@ -268,7 +252,7 @@
     "title": "Un año de muerte en Gaza: una vida arrebatada cada 12 minutos",
     "excerpt": "El 7 de octubre de 2023, Hamás atacó Israel con la operación bautizada ‘Tormenta de Al Aqsa’, que causó la muerte de unos 1.200 israelíes y extranjeros en una acción terrorista que terminó con unos 250 secuestrados.",
     "note": "Тут применшення війни в Україні у порівнянні із Газою, але цікавий варіант візуалізації, коли мало цифр",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://img.rtve.es/imagenes/ano-guerra-gaza/01728057628100.jpg"
   },
   {
@@ -276,7 +260,7 @@
     "title": "https://www.reuters.com/investigates/special-report/muslims-camps-china/",
     "excerpt": null,
     "note": "Tracking China’s Muslim Gulag",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": ""
   },
   {
@@ -284,7 +268,7 @@
     "title": "How Drug Overdose Deaths Have Plagued One Generation of Black Men for Decades",
     "excerpt": "Young Black men in cities across America died of drug overdoses at high rates in the 1980s and 1990s. During the recent fentanyl crisis, older Black men in many cities have been dying at unusually high rates. They’re all from the same generation.",
     "note": "набір даних про смертність, але з нього взяли лише один маленький фокус, що чорні чоловіки 45+ помирають від наркотиків, а не робили візуалізацію всього",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": ""
   },
   {
@@ -292,7 +276,7 @@
     "title": "Miles Davis",
     "excerpt": "First, we sorted the Wikipedia pages by year, which gives us a better sense of how Miles was referenced throughout his career (*for pages without an obvious year, we ignored it or used birth-year if it was a person).",
     "note": "Анімація на scrollmagic круто реагує на скролл",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://pudding.cool/2017/03/miles/preview.png"
   },
   {
@@ -300,7 +284,7 @@
     "title": "Daily waste woes: Bishkek сitizens discard tons of food packaging, yet the majority Is recyclable",
     "excerpt": "Бул материалды кыргыз тилинде бул жерден окуса болот. Every day in Bishkek, according to various estimates, between 870 to 1000 tons of waste are collected.",
     "note": "Аплікант Сігма24. Тут звичайна графіка - бар-чарти на Datawrapper. Але цей матеріал цікавий для дискусії, чи підпислила б його якась графіка, цікавіша за бар-чарти. Чи він програє топовим виданням за ефектністю візуалізації... чи все ж таки журналістика даних - це не про ефектну візуалізацію.",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": ""
   },
   {
@@ -308,7 +292,7 @@
     "title": "This year, our visual stories covered a range of subjects: artificial intelligence, war in Ukraine and Gaza, the transition to cleaner energy, natural disasters and the 50th anniversary of hip-hop. 2023: The Year in Visual Stories and Graphics.",
     "excerpt": "Selected Times graphics, visualizations and multimedia stories published this year. All free to read for a limited time.",
     "note": "Dataviz проєкти NYT за 2023 рік, а також підбірки за попердні роки.",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://static01.nyt.com/images/2023/12/21/multimedia/2023-11-13-year-in-graphics-index/2023-11-13-year-in-graphics-index-facebookJumbo-v5.jpg?year=2024&h=549&w=1050&s=38182b73d5d43392eb38660309a0ab5e10a29caf2c1b59647226988ac183114b&k=ZQJBKqZ0VN"
   },
   {
@@ -316,7 +300,7 @@
     "title": "So hoch waren die russischen Verluste im ersten Jahr des Krieges",
     "excerpt": "Quellen:Henry Schlottman, Warspotting, Mediazona, eigene Berechnungen. Die Methode ist hier zu finden.",
     "note": "Російських військових прийшло/вбито - красивий графік",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "cover_image": "https://img.nzz.ch/2023/06/20/fe7daaa4-a801-470b-bd56-6add40c726e1.png?width=1200&height=675&fit=bounds&quality=75&auto=webp&crop=2160,1215,x0,y0&wmark=nzz"
   },
   {
@@ -340,7 +324,7 @@
     "title": "How Israelâs multi-ton truck bombs ripped through Gaza City",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://www.reuters.com/graphics/ISRAEL-PALESTINIANS/DEMOLITION/jnvwkkxdlvw/cdn/images/reuters-graphics.jpg",
     "date": "1769213223.471989"
@@ -350,7 +334,7 @@
     "title": "Why you might be paying more for reduced quality at the supermarket",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://live-production.wcms.abc-cdn.net.au/6da9088579caf6b230e4750990d15c91?impolicy=wcms_watermark_news&cropH=720&cropW=1280&xPos=0&yPos=0&width=862&height=485&imformat=generic",
     "date": "1769214211.324289"
@@ -360,7 +344,7 @@
     "title": "Een doodverklaarde NAVO-piloot en drugs van de Oekraïense overheid: zo worden AI-chatbots geïnfecteerd met Russische propaganda",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://assets-pointer.kro-ncrv.nl/public/styles/social_lg/public/media/images/250617-Pointer-Pravda-Interactive-Header.png?VersionId=MYooExEKdaQQyTWORjKER0ygK5xYOMm&itok=AfHngyFM",
     "date": "1769216852.069519"
@@ -370,7 +354,7 @@
     "title": "Satellite images reveal Russia’s military town",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://images.cdn.yle.fi/image/upload/c_crop,x_0,y_0,w_3332,h_1867/w_1200,ar_1.91,c_fill/q_auto:eco,f_auto,fl_lossy/v1750159425/39-148216568511716ec917",
     "date": "1769374256.940029"
@@ -380,7 +364,7 @@
     "title": "Russische gps-verstoring reikt steeds dieper in het Europese luchtruim. Wat zijn de gevolgen?",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://www.nrc.nl/static/front/img/social/default-og-image-facebook.png",
     "date": "1769421184.688189"
@@ -390,7 +374,7 @@
     "title": "Excel-art series - Oleksiy Sai",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "ydukach",
     "cover_image": "https://oleksiysai.com/wp-content/uploads/2025/07/2019_130x115_brave.jpg",
     "date": "1769428915.356469"
@@ -400,7 +384,7 @@
     "title": "US science after a year of Trump: what has been lost and what remains",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "ydukach",
     "cover_image": "https://www.nature.com/immersive/d41586-026-00088-9/assets/9TdGe8dDbK/new-2026-01-20-feature-trump-anniversary-sm-1066x600.jpg",
     "date": "1769533178.165629"
@@ -410,7 +394,7 @@
     "title": "A drive along a corridor of destruction in Gaza",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://img.nzz.ch/2025/05/13/e0fecf39-6e90-4749-a2af-e23558e63b5c.gif?width=720&height=405&fit=bounds&quality=75&auto=webp&crop=720,405,x0,y0",
     "date": "1769621509.706479"
@@ -420,7 +404,7 @@
     "title": "AntiRender - Reality Hits Different",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "ydukach",
     "cover_image": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/064f1399-7163-4379-b3a9-3e4259dd3269/id-preview-8425b3d0--d981d90b-333a-459c-b771-1233e4868668.lovable.app-1771857797836.png",
     "date": "1769776402.226739"
@@ -430,7 +414,7 @@
     "title": "TikTok: As mentiras sobre saÃºde espalham-se mais rÃ¡pido que a verdade | PÃBLICO",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://www.publico.pt/interactivos/tiktok-desinformacao-saude-pernas-compridas/thumb_tiktok.jpg",
     "date": "1769795502.756249"
@@ -440,7 +424,7 @@
     "title": "National Greenwashing Program: From Green Dreams to Barren Realities | Davao Today",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://davaotoday.com/wp-content/uploads/2025/05/NGP-Story-1-banner.jpg",
     "date": "1769811096.442229"
@@ -450,7 +434,7 @@
     "title": "Who are Houston's power brokers?",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "",
     "date": "1770076573.917039"
@@ -460,7 +444,7 @@
     "title": "Exved: The Ghost Successor of Garantex",
     "excerpt": "",
     "note": "",
-    "category": "dj & dataviz",
+    "category": "dataviz",
     "author": "yevheniia",
     "cover_image": "https://cryptolaundromat.ti-russia.org/wp-content/uploads/2025/09/2867-1024x576.png",
     "date": "1770077930.282159"

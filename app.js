@@ -127,6 +127,7 @@ function renderGallery() {
 
   if (searchQuery) {
     links = links.filter(l =>
+      l.url.toLowerCase().includes(searchQuery) ||
       l.title.toLowerCase().includes(searchQuery) ||
       l.excerpt.toLowerCase().includes(searchQuery) ||
       (l.note && l.note.toLowerCase().includes(searchQuery)) ||
