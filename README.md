@@ -123,9 +123,6 @@ Import links from JSON files in the `collections/` directory:
 ```bash
 # Merge all collections
 python merge.py
-
-# Merge specific categories only
-python merge.py --only "dj & dataviz" SIGMA
 ```
 
 Each file in `collections/` must follow this structure:
