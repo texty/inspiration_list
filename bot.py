@@ -103,11 +103,41 @@ def fetch_messages(channel: str, oldest: str) -> list:
 # ── Parsing ───────────────────────────────────────────────────────────────────
 
 def extract_url(text: str) -> str | None:
-    """Extract first URL from a Slack message.
-    Slack wraps links as <https://...> or <https://...|label>.
+    """Extract first URL from a Slack message text field.
+    Handles both mrkdwn format <https://...> and plain URLs.
     """
+    # mrkdwn format: <https://...> or <https://...|label>
     match = re.search(r"<(https?://[^|>\s]+)(?:\|[^>]*)?>", text)
-    return match.group(1) if match else None
+    if match:
+        return match.group(1)
+    # plain URL fallback (Block Kit fallback text)
+    match = re.search(r"https?://\S+", text)
+    return match.group(0).rstrip(".,;)>\"'") if match else None
+
+
+def extract_url_from_blocks(blocks: list) -> str | None:
+    """Extract first URL from Slack Block Kit rich_text blocks."""
+    for block in blocks:
+        if block.get("type") != "rich_text":
+            continue
+        for section in block.get("elements", []):
+            for el in section.get("elements", []):
+                if el.get("type") == "link" and el.get("url", "").startswith("http"):
+                    return el["url"]
+    return None
+
+
+def extract_text_from_blocks(blocks: list) -> str:
+    """Extract plain text from Slack Block Kit rich_text blocks (for category parsing)."""
+    parts = []
+    for block in blocks:
+        if block.get("type") != "rich_text":
+            continue
+        for section in block.get("elements", []):
+            for el in section.get("elements", []):
+                if el.get("type") == "text":
+                    parts.append(el.get("text", ""))
+    return " ".join(parts)
 
 
 def extract_category(text: str) -> str:
@@ -166,7 +196,9 @@ def main() -> None:
     print(f"Bot: {bot_user_id}")
 
     messages = fetch_messages(SLACK_CHANNEL_ID, state["last_run_ts"])
-    print(f"Fetched {len(messages)} messages\n")
+    print(f"Fetched {len(messages)} messages")
+    url_msgs = sum(1 for m in messages if extract_url(m.get("text","")) or extract_url_from_blocks(m.get("blocks",[])))
+    print(f"Messages with URLs: {url_msgs}\n")
 
     saved = 0
 
@@ -178,13 +210,19 @@ def main() -> None:
             continue
 
         text = msg.get("text", "")
+        blocks = msg.get("blocks", [])
+
         url = extract_url(text)
+        if not url and blocks:
+            url = extract_url_from_blocks(blocks)
         if not url:
             continue
         if url in existing_urls:
             continue
 
-        category = extract_category(text)
+        # For category: use text if available, otherwise reconstruct from blocks
+        category_source = text if text.strip() else extract_text_from_blocks(blocks)
+        category = extract_category(category_source)
         author = get_username(msg.get("user", "unknown"))
 
         print(f"→ {url}")
