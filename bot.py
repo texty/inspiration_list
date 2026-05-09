@@ -203,21 +203,27 @@ def main() -> None:
     saved = 0
 
     for msg in messages:
-        # Skip bot's own messages and thread replies
-        if msg.get("user") == bot_user_id:
-            continue
-        if msg.get("thread_ts") and msg["thread_ts"] != msg["ts"]:
-            continue
-
+        ts = msg.get("ts", "?")
+        user = msg.get("user", "no-user")
         text = msg.get("text", "")
         blocks = msg.get("blocks", [])
+
+        # Skip bot's own messages and thread replies
+        if user == bot_user_id:
+            print(f"  skip {ts}: bot's own message")
+            continue
+        if msg.get("thread_ts") and msg["thread_ts"] != msg["ts"]:
+            print(f"  skip {ts}: thread reply")
+            continue
 
         url = extract_url(text)
         if not url and blocks:
             url = extract_url_from_blocks(blocks)
         if not url:
+            print(f"  skip {ts}: no url | text={text[:80]!r} | blocks={len(blocks)}")
             continue
         if url in existing_urls:
+            print(f"  skip {ts}: already saved | {url[:60]}")
             continue
 
         # For category: use text if available, otherwise reconstruct from blocks
